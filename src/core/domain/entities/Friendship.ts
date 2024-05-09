@@ -1,6 +1,6 @@
 import { User } from './User';
 
-enum FriendshipStatus {
+export enum FriendshipStatus {
   ACEPTED = 'ACEPTED',
   DECLINED = 'DECLINED',
   PENDING = 'PENDING',

@@ -1,11 +1,13 @@
+import { Lenguages } from './Lenguages';
+
 export class User {
   user_id: number;
   name: string;
   surname: string;
   email: string;
   photo: string;
-  native_language: string;
-  learning: string;
+  native_language: Lenguages;
+  learning: Lenguages;
   description: string;
   ratingAvg: number;
   createdAt: Date;
