@@ -1,7 +1,7 @@
 import { Friendship, FriendshipStatus } from '../../entities/Friendship';
 
 export interface FriendshipServiceInterface {
-  save(friendship: Friendship): Promise<Friendship>;
+  create(friendship: Friendship): Promise<Friendship>;
   checkStatusByUsersIds(
     userSenderId: string,
     userReceptorId: string,
